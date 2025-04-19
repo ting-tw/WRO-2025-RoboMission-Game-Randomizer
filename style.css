@@ -1,0 +1,153 @@
+.map:not(.select) {
+    display: none;
+}
+
+.map {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.map div {
+    user-select: none;
+    -webkit-user-drag: none;
+    position: absolute;
+}
+
+.map div[class]:not([class=""]) {
+    box-shadow: 0 0 0 3px black;
+    border-radius: 1px;
+    transition: all 0.5s ease-in-out;
+}
+
+.red {
+    background-color: #ff2629;
+}
+
+.yellow {
+    background-color: #ffec3d;
+}
+
+.blue {
+    background-color: #008cff;
+}
+
+.green {
+    background-color: #73d13d;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+#map_elementary *:nth-child(1) {
+    left: 26.95%;
+    bottom: 5.5%;
+    width: 4.5%;
+    height: 9.0%;
+}
+
+#map_elementary *:nth-child(2) {
+    left: 34.1%;
+    bottom: 5.5%;
+    width: 4.5%;
+    height: 9.0%;
+}
+
+#map_elementary *:nth-child(3) {
+    left: 41.25%;
+    bottom: 5.5%;
+    width: 4.5%;
+    height: 9.0%;
+}
+
+#map_elementary *:nth-child(4) {
+    left: 48.35%;
+    bottom: 5.5%;
+    width: 4.5%;
+    height: 9.0%;
+}
+
+#map_elementary *:nth-child(5) {
+    left: 55.5%;
+    bottom: 5.5%;
+    width: 4.5%;
+    height: 9.0%;
+}
+
+#map_junior *:nth-child(1) {
+    left: 43.48%;
+    top: 25.707%;
+    width: 2.1%;
+    height: 4.338%;
+}
+
+#map_junior *:nth-child(2) {
+    left: 43.48%;
+    top: 33.877%;
+    width: 2.1%;
+    height: 4.338%;
+}
+
+#map_junior *:nth-child(3) {
+    left: 43.48%;
+    top: 42.157%;
+    width: 2.1%;
+    height: 4.338%;
+}
+
+#map_junior *:nth-child(4) {
+    left: 43.48%;
+    top: 50.397%;
+    width: 2.1%;
+    height: 4.338%;
+}
+
+#map_junior *:nth-child(5) {
+    left: 43.48%;
+    top: 58.797%;
+    width: 2.1%;
+    height: 4.338%;
+}
+
+#map_junior *:nth-child(6) {
+    left: 43.48%;
+    top: 66.977%;
+    width: 2.1%;
+    height: 4.338%;
+}
+
+#map_senior *:nth-child(1) {
+    left: 40.955%;
+    top: 6.015%;
+    width: 3.3%;
+    height: 6.81%;
+}
+
+#map_senior *:nth-child(2) {
+    left: 40.955%;
+    top: 12.965%;
+    width: 3.3%;
+    height: 6.81%;
+}
+
+#map_senior *:nth-child(3) {
+    left: 69.28%;
+    top: 6.015%;
+    width: 3.3%;
+    height: 6.81%;
+}
+
+#map_senior *:nth-child(4) {
+    left: 69.28%;
+    top: 12.965%;
+    width: 3.3%;
+    height: 6.81%;
+}
+
+#map_senior *:nth-child(5) {
+    left: 45.4%;
+    top: 40.0%;
+    width: 1.2%;
+    height: 8.4%;
+}
